@@ -1,0 +1,66 @@
+/* font-family: 'Nunito', sans-serif; */
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@600&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Nunito", sans-serif;
+}
+
+/* HOME STYLE___________ */
+.home {
+  background: linear-gradient(
+    180deg,
+    rgba(243, 197, 82, 0.6) 20%,
+    rgba(243, 197, 82, 1) 100%
+  );
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.home-header {
+  background-color: rgba(255, 255, 255, 1);
+  height: 90vh;
+  box-shadow: 0px 40px 80px 0px rgba(0, 0, 0, 0.25);
+  width: 90%;
+  border-radius: 30px;
+}
+/* __________________________________ */
+.section-navigation {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: baseline;
+  width: 100%;
+  margin-top: 2%;
+}
+.header {
+  width: 20%;
+  font-size: 2rem;
+  letter-spacing: 20px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: baseline;
+
+  /* margin-left: 5%; */
+}
+
+.navigation {
+  width: 60%;
+}
+.navigation ul {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+}
+.navigation li {
+  list-style: none;
+  font-size: 18px;
+}
+.navigation a {
+  text-decoration: none;
+  color: #222222;
+}
+.navigation a:hover {
+  color: #daa520;
+  font-weight: 800;
+}
